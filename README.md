@@ -1,7 +1,7 @@
 # 🔍 Exploring Trust in AI Using Stack Overflow Developer Survey Data
 
 ## 📘 Overview
-This project explores what influences developers' **trust in AI** using data from the **2024 Stack Overflow Developer Survey**. With the **2025 survey currently underway**, I wanted to understand how developer sentiment toward AI is evolving—and whether we can **predict trust in AI** based on behavioral and demographic features.
+This project explores what influences developers' **trust in AI** using data from the **2024 Stack Overflow Developer Survey**. With the **2025 survey currently underway**, I wanted to understand how developer sentiment toward AI is evolving and whether we can **predict trust in AI** based on behavioral and demographic features.
 
 ---
 
@@ -38,7 +38,7 @@ To build a machine learning model that predicts whether a developer **trusts AI*
 ## 🧪 Models Tried
 ### 🔹 Logistic Regression
 - Served as a baseline model  
-- Simple, interpretable—but underperformed
+- Simple, interpretable, but ultimately underperformed
 
 ### 🔹 Random Forest Classifier ✅
 - Delivered better performance and more meaningful feature importance
@@ -82,11 +82,8 @@ This insight helped validate the balance of our binary target and supported deep
 ## 📁 Repository Contents
 
 ```bash
-├── data/
-│   └── cleaned_survey_data_2024.csv
-├── notebooks/
-│   └── modeling_ai_trust.ipynb
-├── visuals/
-│   └── ai_trust_feature_importance.png
+.
+├── LICENSE
 ├── README.md
+├── SO24_model.ipynb
 └── requirements.txt
